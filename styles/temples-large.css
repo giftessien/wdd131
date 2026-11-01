@@ -1,0 +1,27 @@
+
+@media screen and (min-width: 768px) {
+
+    #menu-button {
+        display: none;
+    }
+
+    .header-content {
+        flex-wrap: nowrap;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: auto;
+    }
+
+    nav a {
+        padding: 1rem 1.5rem;
+    }
+
+    .temple-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
