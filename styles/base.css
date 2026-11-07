@@ -4,8 +4,7 @@
     --secondary: #585979;
     --accent: #f2a900;
     --text: #222222;
-    --bg: rgba(76, 102, 155, 0.467);
-    --white: #ffffff;
+    --bg: --bg: #ffffff;
     --black: #000000;
     --border: #808080;
 }
@@ -57,7 +56,14 @@ nav a:hover {
     background-color: var(--accent);
     color: var(--black);
 }
+#course-title {
+    color: #ffffff;
+}
 
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
 /* Header sections */
 .head1 {
     background: var(--primary);
