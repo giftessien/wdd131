@@ -54,6 +54,14 @@ nav a:hover {
     display: flex;
     
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
 .abm{
     justify-content: center;
     display: flex;
