@@ -5,6 +5,23 @@
 --text: #222;
 --bg: rgba(76, 102, 155, 0.467);
 }
+.redaction-70-regular {
+  font-family: "Redaction 70", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.redaction-70-bold {
+  font-family: "Redaction 70", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.redaction-70-regular-italic {
+  font-family: "Redaction 70", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
 
 body{
     font-family: "Roboto", sans-serif;
@@ -12,48 +29,68 @@ body{
     background: var(--bg);
 }
 header{
-    height: 120px;
-}
-li,.li  {
-    margin: 25px 29px 0px 29px;
-}
-.paragraph{
-    border: 12px green;
-    border-radius: 15%;
-}
-header span{
-    height: 55px;
-    display: flex;
-    justify-content: center;
-    background: var(--secondary);
-
+    height: 100px;
 }
 nav{
-    height: 55px;
     display: flex;
-    justify-content: center;
-    gap: 1fr;
-    background: var(--primary);
-}
-nav a{
-    color: #fff;
-    padding: 0.5rem 1 rem;
-    text-decoration: none;
-    transition: background-color 0.3s ;
+    gap:94px;
+    margin: 15px 27px 0px 25px;
+
 }
 nav a:hover {
     background-color: var(--accent);
     color: #000
 }
-main{
-    max-width: 960px;
-    width: 400px;
-   
-    margin: 0 auto;
-  
+.head1{
+    background: var(--primary);
+    height: 65px;
+    justify-content: center;
+    display: flex;
 }
-main .card{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1rem;
+.head2{
+    background:var(--secondary);
+    height: 45px;
+    justify-content: center;
+    display: flex;
+    
+}
+.abm{
+    justify-content: center;
+    display: flex;
+    height: 20px;
+    width: 620px;
+    margin: 0px;
+    background:var(--primary);
+}
+.cbm{
+    justify-content: center;
+    display: flex;
+    height: 20px;
+    width: 380px;
+    margin: 0px 0px 0px 40px;
+    background:var(--secondary);
+}
+.main1{
+    justify-content: center;
+    display: flex;
+}
+.main2{
+    width: 606px;
+    border: 1px solid gray;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    padding: 0px 0px 0px 12px;
+}
+.main3{
+    width: 366px;
+    height: 200px;
+     margin: 0px 0px 0px 40px;
+    border: 1px solid gray;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    padding: 0px 0px 0px 12px;
+}
+.md23, .maine2{
+    display: flex;
+    
 }
