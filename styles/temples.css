@@ -1,5 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap');
 
 :root {
     --primary-color: #183b56;
@@ -14,7 +13,7 @@
 
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: var(--text-color);
     background-color: #f8f9fa;
 }
