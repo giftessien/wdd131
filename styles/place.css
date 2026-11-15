@@ -1,3 +1,23 @@
+:root {
+    --primary-color: #008751;
+    --secondary-color: #ffffff;
+    --accent-color: #d9a441;
+    --text-color: #26382e;
+    --heading-font: "Roboto", sans-serif;
+    --body-font: "Roboto", sans-serif;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+
 .weather-icon {
     display: block;
     width: 60px;
